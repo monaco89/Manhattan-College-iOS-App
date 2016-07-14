@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D05D5211B1A9DBD00E12774 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D5201B1A9DBD00E12774 /* unnamed.png */; };
+		5D05D5251B1AA90300E12774 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D5221B1AA90300E12774 /* icon.png */; };
+		5D05D5261B1AA90300E12774 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D5231B1AA90300E12774 /* icon2.png */; };
+		5D05D5271B1AA90300E12774 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D5241B1AA90300E12774 /* icon3.png */; };
+		5D05D52B1B1AAED400E12774 /* Moodle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D52A1B1AAED400E12774 /* Moodle.png */; };
+		5D05D52D1B1AAF4800E12774 /* LogoMoodle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D52C1B1AAF4800E12774 /* LogoMoodle.png */; };
+		5D05D52F1B1AB05700E12774 /* lib.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D52E1B1AB05700E12774 /* lib.tiff */; };
+		5D05D5311B1AB10A00E12774 /* MTLLAX7dc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D05D5301B1AB10A00E12774 /* MTLLAX7dc.png */; };
+		5D0CA2B318A0020900A1973E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA2B218A0020900A1973E /* Foundation.framework */; };
+		5D0CA2B518A0020900A1973E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA2B418A0020900A1973E /* CoreGraphics.framework */; };
+		5D0CA2B718A0020900A1973E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA2B618A0020900A1973E /* UIKit.framework */; };
+		5D0CA2BD18A0020900A1973E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2BB18A0020900A1973E /* InfoPlist.strings */; };
+		5D0CA2BF18A0020900A1973E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA2BE18A0020900A1973E /* main.m */; };
+		5D0CA2C318A0020900A1973E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA2C218A0020900A1973E /* AppDelegate.m */; };
+		5D0CA2C618A0020900A1973E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2C418A0020900A1973E /* Main.storyboard */; };
+		5D0CA2C918A0020900A1973E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA2C818A0020900A1973E /* ViewController.m */; };
+		5D0CA2CB18A0020900A1973E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2CA18A0020900A1973E /* Images.xcassets */; };
+		5D0CA2D218A0020A00A1973E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA2D118A0020A00A1973E /* XCTest.framework */; };
+		5D0CA2D318A0020A00A1973E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA2B218A0020900A1973E /* Foundation.framework */; };
+		5D0CA2D418A0020A00A1973E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA2B618A0020900A1973E /* UIKit.framework */; };
+		5D0CA2DC18A0020A00A1973E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2DA18A0020A00A1973E /* InfoPlist.strings */; };
+		5D0CA2DE18A0020A00A1973E /* Manhattan_College_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA2DD18A0020A00A1973E /* Manhattan_College_AppTests.m */; };
+		5D0CA2E818A0030200A1973E /* 373016_211461328925864_1317826551_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2E718A0030200A1973E /* 373016_211461328925864_1317826551_n.jpg */; };
+		5D0CA2EA18A006D900A1973E /* manhattan_jaspers_lacrosse-300x200 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2E918A006D900A1973E /* manhattan_jaspers_lacrosse-300x200 copy.png */; };
+		5D0CA2EC18A006E200A1973E /* 732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2EB18A006E200A1973E /* 732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png */; };
+		5D0CA2EE18A0075200A1973E /* bookstore icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2ED18A0075200A1973E /* bookstore icon.tiff */; };
+		5D0CA2F118A0078300A1973E /* moodle icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2EF18A0078300A1973E /* moodle icon.tiff */; };
+		5D0CA2F218A0078300A1973E /* self service icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2F018A0078300A1973E /* self service icon.tiff */; };
+		5D0CA2F418A0078900A1973E /* Calender icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2F318A0078900A1973E /* Calender icon.tiff */; };
+		5D0CA2F718A0085E00A1973E /* con140656.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2F518A0085E00A1973E /* con140656.png */; };
+		5D0CA2F818A0085E00A1973E /* Facebook-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2F618A0085E00A1973E /* Facebook-Icon.png */; };
+		5D0CA2FA18A008D500A1973E /* 4064011-1380299870646-144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2F918A008D500A1973E /* 4064011-1380299870646-144x144.png */; };
+		5D0CA2FC18A0098200A1973E /* 04_maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA2FB18A0098200A1973E /* 04_maps.png */; };
+		5D0CA2FF18A00A4400A1973E /* SelfServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA2FE18A00A4400A1973E /* SelfServiceViewController.m */; };
+		5D0CA30118A00AEC00A1973E /* manhattan_36t.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA30018A00AEC00A1973E /* manhattan_36t.png */; };
+		5D0CA30318A00B4300A1973E /* small-tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA30218A00B4300A1973E /* small-tiles.png */; };
+		5D0CA30918A00BF800A1973E /* MoodleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA30818A00BF800A1973E /* MoodleViewController.m */; };
+		5D0CA32718A0162200A1973E /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA32618A0162200A1973E /* BookViewController.m */; };
+		5D0CA32D18A016FA00A1973E /* CalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA32C18A016FA00A1973E /* CalenderViewController.m */; };
+		5D0CA33318A0174E00A1973E /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA33218A0174E00A1973E /* MapViewController.m */; };
+		5D0CA33518A0189C00A1973E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA33418A0189B00A1973E /* logo.png */; };
+		5D0CA33F18A02CA900A1973E /* GQMVLIMYZUAYCJG.20110804185518.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA33E18A02CA900A1973E /* GQMVLIMYZUAYCJG.20110804185518.jpg */; };
+		5D0CA34118A02E4800A1973E /* degree works icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA34018A02E4800A1973E /* degree works icon.tiff */; };
+		5D0CA34418A02E7900A1973E /* DegreeWorksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA34318A02E7900A1973E /* DegreeWorksViewController.m */; };
+		5D0CA34718A02FB900A1973E /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA34618A02FB900A1973E /* LibraryViewController.m */; };
+		5D0CA34A18A0308B00A1973E /* EmergencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA34918A0308B00A1973E /* EmergencyViewController.m */; };
+		5D0CA34C18A030C300A1973E /* emergency_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA34B18A030C300A1973E /* emergency_icon.png */; };
+		5D0CA34E18A0332D00A1973E /* library icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA34D18A0332D00A1973E /* library icon.tiff */; };
+		5D0CA35118A0340600A1973E /* JaspersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA35018A0340600A1973E /* JaspersViewController.m */; };
+		5D0CA35F18A03A3900A1973E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0CA35E18A03A3900A1973E /* Security.framework */; };
+		5D0CA36B18A0492600A1973E /* HWCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA36A18A0492600A1973E /* HWCell.m */; };
+		5D0CA36E18A0494000A1973E /* HW.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA36D18A0494000A1973E /* HW.m */; };
+		5D0CA37418A0BEF100A1973E /* HWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA37318A0BEF100A1973E /* HWDetailViewController.m */; };
+		5D0CA37718A0C6F900A1973E /* HWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA37618A0C6F900A1973E /* HWTableViewController.m */; };
+		5D0CA37B18A1759900A1973E /* T33717-ST-506.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA37A18A1759900A1973E /* T33717-ST-506.png */; };
+		5D0CA37F18A1767E00A1973E /* 1C6958411-4.blocks_desktop_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0CA37E18A1767E00A1973E /* 1C6958411-4.blocks_desktop_small.png */; };
+		5D12174F1AA7CE33003BDE4B /* woIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D12174E1AA7CE33003BDE4B /* woIcon.png */; };
+		5D2B7CD41C69906B00F36BAD /* washing-machine-512.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B7CD31C69906B00F36BAD /* washing-machine-512.gif */; };
+		5D2E77B61A15619F00B7E11D /* emailMC.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2E77B51A15619F00B7E11D /* emailMC.png */; };
+		5D2E77B91A15624000B7E11D /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E77B81A15624000B7E11D /* EmailViewController.m */; };
+		5D2E77BC1A1568CA00B7E11D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E77BB1A1568CA00B7E11D /* LoginViewController.m */; };
+		5D49E86E199ADFE700449B23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D49E86D199ADFE700449B23 /* MapKit.framework */; };
+		5D49E870199AE23300449B23 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49E86F199AE23300449B23 /* fb.png */; };
+		5D49E872199AEC1800449B23 /* id.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49E871199AEC1800449B23 /* id.png */; };
+		5D49E87A199AEF4100449B23 /* calender.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49E879199AEF4100449B23 /* calender.png */; };
+		5D49E87C199AF09300449B23 /* selfservice.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49E87B199AF09300449B23 /* selfservice.png */; };
+		5D49E87E199AF09600449B23 /* bookstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D49E87D199AF09600449B23 /* bookstore.png */; };
+		5D49E881199AF2C000449B23 /* IDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D49E880199AF2C000449B23 /* IDViewController.m */; };
+		5D49E886199C3FDE00449B23 /* GrubhubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D49E885199C3FDE00449B23 /* GrubhubViewController.m */; };
+		5D49E88A199C467600449B23 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D49E889199C467500449B23 /* Settings.bundle */; };
+		5D49E88E199C510F00449B23 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D49E88D199C510F00449B23 /* ScheduleViewController.m */; };
+		5D4D4C111923478B004147DA /* Lasallian-Star_Green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D4D4C101923478B004147DA /* Lasallian-Star_Green.jpg */; };
+		5D4F71E219040C740089921F /* Homework.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D4F71E119040C740089921F /* Homework.plist */; };
+		5D5023631A087DED0055C68B /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5023621A087DED0055C68B /* TwitterViewController.m */; };
+		5D5023651A087ED60055C68B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5023641A087ED60055C68B /* Social.framework */; };
+		5D5023671A0885050055C68B /* studActIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D5023661A0885050055C68B /* studActIcon.jpg */; };
+		5D5023691A08850B0055C68B /* studActHeader.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D5023681A08850B0055C68B /* studActHeader.jpeg */; };
+		5D50236B1A0888760055C68B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D50236A1A0888760055C68B /* Accounts.framework */; };
+		5D59A4CE1A4273CC00DC38E6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D59A4CD1A4273CC00DC38E6 /* CoreData.framework */; };
+		5D59A4D01A4273DA00DC38E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D59A4CF1A4273DA00DC38E6 /* SystemConfiguration.framework */; };
+		5D59A4D21A4273E600DC38E6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D59A4D11A4273E600DC38E6 /* libz.dylib */; };
+		5D59A4D41A42756B00DC38E6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D59A4D31A42756B00DC38E6 /* libsqlite3.0.dylib */; };
+		5D75E8EB19A06D9900B287B7 /* campusMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5D75E8EA19A06D9900B287B7 /* campusMap.pdf */; };
+		5D75E8EF19A0727500B287B7 /* instagramIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D75E8EC19A0727500B287B7 /* instagramIcon.png */; };
+		5D75E8F019A0727500B287B7 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D75E8ED19A0727500B287B7 /* settingsIcon.png */; };
+		5D75E8F119A0727500B287B7 /* directory.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D75E8EE19A0727500B287B7 /* directory.png */; };
+		5D75E8F419A0742600B287B7 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D75E8F319A0742600B287B7 /* SettingsViewController.m */; };
+		5D9D26851A424AA700D66C70 /* harddrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D9D26841A424AA700D66C70 /* harddrive.png */; };
+		5D9D26881A424B2E00D66C70 /* HomeDriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D26871A424B2E00D66C70 /* HomeDriveViewController.m */; };
+		5DAAA9391A4804A400F73AC3 /* JNKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAA9381A4804A400F73AC3 /* JNKeychain.m */; };
+		5DAAA93B1A49437C00F73AC3 /* seamless_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAA93A1A49437C00F73AC3 /* seamless_icon.png */; };
+		5DAAA93D1A49478300F73AC3 /* newspaperIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAA93C1A49478300F73AC3 /* newspaperIcon.png */; };
+		5DAAA9401A49492700F73AC3 /* QuadrangleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAA93F1A49492700F73AC3 /* QuadrangleViewController.m */; };
+		5DAAA9421A4A974500F73AC3 /* edit-property-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAA9411A4A974500F73AC3 /* edit-property-xxl.png */; };
+		5DAAA9441A4A97BB00F73AC3 /* forms-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAA9431A4A97BB00F73AC3 /* forms-icon.png */; };
+		5DAB0E861AA653300055DF44 /* wrench.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB0E851AA653300055DF44 /* wrench.png */; };
+		5DAB0E891AA653FD0055DF44 /* WorkOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB0E881AA653FD0055DF44 /* WorkOrderViewController.m */; };
+		5DAB0E8B1AA657FB0055DF44 /* funds.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DAB0E8A1AA657FB0055DF44 /* funds.png */; };
+		5DAB0E8E1AA658830055DF44 /* FundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB0E8D1AA658830055DF44 /* FundsViewController.m */; };
+		5DB58F6419FABEEF003E325B /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB58F6319FABEEF003E325B /* PassKit.framework */; };
+		5DB58F6D19FAC89A003E325B /* backicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB58F6C19FAC89A003E325B /* backicon.png */; };
+		5DB58F6F19FAC8C0003E325B /* backicon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB58F6E19FAC8C0003E325B /* backicon copy.png */; };
+		5DBD50811B3D85FB009EB969 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBD50801B3D85FB009EB969 /* iPad.storyboard */; };
+		5DBD50881B3D95C6009EB969 /* icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBD50861B3D95C6009EB969 /* icon4.png */; };
+		5DBD50891B3D95C6009EB969 /* icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBD50871B3D95C6009EB969 /* icon5.png */; };
+		5DC067DF19EA3D1100F400C1 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC067DE19EA3D1100F400C1 /* schedule.png */; };
+		5DC067E119EA40F000F400C1 /* grubhub.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC067E019EA40F000F400C1 /* grubhub.png */; };
+		5DF225EE19233DF7003484CD /* header.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5DF225EC19233DF7003484CD /* header.tiff */; };
+		5DF225F119233DFB003484CD /* ManCol3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DF225F019233DFB003484CD /* ManCol3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D0CA2D518A0020A00A1973E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D0CA2A718A0020900A1973E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0CA2AE18A0020900A1973E;
+			remoteInfo = "Manhattan College App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D05D5201B1A9DBD00E12774 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		5D05D5221B1AA90300E12774 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5D05D5231B1AA90300E12774 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		5D05D5241B1AA90300E12774 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		5D05D52A1B1AAED400E12774 /* Moodle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moodle.png; sourceTree = "<group>"; };
+		5D05D52C1B1AAF4800E12774 /* LogoMoodle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoMoodle.png; sourceTree = "<group>"; };
+		5D05D52E1B1AB05700E12774 /* lib.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = lib.tiff; sourceTree = "<group>"; };
+		5D05D5301B1AB10A00E12774 /* MTLLAX7dc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MTLLAX7dc.png; sourceTree = "<group>"; };
+		5D0CA2AF18A0020900A1973E /* MC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0CA2B218A0020900A1973E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D0CA2B418A0020900A1973E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D0CA2B618A0020900A1973E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D0CA2BA18A0020900A1973E /* MC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MC-Info.plist"; sourceTree = "<group>"; };
+		5D0CA2BC18A0020900A1973E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D0CA2BE18A0020900A1973E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D0CA2C018A0020900A1973E /* Manhattan College App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Manhattan College App-Prefix.pch"; sourceTree = "<group>"; };
+		5D0CA2C118A0020900A1973E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D0CA2C218A0020900A1973E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D0CA2C518A0020900A1973E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D0CA2C718A0020900A1973E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D0CA2C818A0020900A1973E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D0CA2CA18A0020900A1973E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D0CA2D018A0020A00A1973E /* MCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0CA2D118A0020A00A1973E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5D0CA2D918A0020A00A1973E /* Manhattan College AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manhattan College AppTests-Info.plist"; sourceTree = "<group>"; };
+		5D0CA2DB18A0020A00A1973E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D0CA2DD18A0020A00A1973E /* Manhattan_College_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manhattan_College_AppTests.m; sourceTree = "<group>"; };
+		5D0CA2E718A0030200A1973E /* 373016_211461328925864_1317826551_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 373016_211461328925864_1317826551_n.jpg; path = ../373016_211461328925864_1317826551_n.jpg; sourceTree = "<group>"; };
+		5D0CA2E918A006D900A1973E /* manhattan_jaspers_lacrosse-300x200 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "manhattan_jaspers_lacrosse-300x200 copy.png"; path = "../manhattan_jaspers_lacrosse-300x200 copy.png"; sourceTree = "<group>"; };
+		5D0CA2EB18A006E200A1973E /* 732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png"; path = "../732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png"; sourceTree = "<group>"; };
+		5D0CA2ED18A0075200A1973E /* bookstore icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "bookstore icon.tiff"; path = "../bookstore icon.tiff"; sourceTree = "<group>"; };
+		5D0CA2EF18A0078300A1973E /* moodle icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "moodle icon.tiff"; path = "../moodle icon.tiff"; sourceTree = "<group>"; };
+		5D0CA2F018A0078300A1973E /* self service icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "self service icon.tiff"; path = "../self service icon.tiff"; sourceTree = "<group>"; };
+		5D0CA2F318A0078900A1973E /* Calender icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Calender icon.tiff"; path = "../Calender icon.tiff"; sourceTree = "<group>"; };
+		5D0CA2F518A0085E00A1973E /* con140656.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = con140656.png; path = ../con140656.png; sourceTree = "<group>"; };
+		5D0CA2F618A0085E00A1973E /* Facebook-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Facebook-Icon.png"; path = "../Facebook-Icon.png"; sourceTree = "<group>"; };
+		5D0CA2F918A008D500A1973E /* 4064011-1380299870646-144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4064011-1380299870646-144x144.png"; path = "../4064011-1380299870646-144x144.png"; sourceTree = "<group>"; };
+		5D0CA2FB18A0098200A1973E /* 04_maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04_maps.png; path = ../04_maps.png; sourceTree = "<group>"; };
+		5D0CA2FD18A00A4400A1973E /* SelfServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelfServiceViewController.h; path = ../SelfServiceViewController.h; sourceTree = "<group>"; };
+		5D0CA2FE18A00A4400A1973E /* SelfServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelfServiceViewController.m; path = ../SelfServiceViewController.m; sourceTree = "<group>"; };
+		5D0CA30018A00AEC00A1973E /* manhattan_36t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manhattan_36t.png; sourceTree = "<group>"; };
+		5D0CA30218A00B4300A1973E /* small-tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-tiles.png"; sourceTree = "<group>"; };
+		5D0CA30718A00BF800A1973E /* MoodleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoodleViewController.h; path = ../MoodleViewController.h; sourceTree = "<group>"; };
+		5D0CA30818A00BF800A1973E /* MoodleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoodleViewController.m; path = ../MoodleViewController.m; sourceTree = "<group>"; };
+		5D0CA32518A0162200A1973E /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookViewController.h; path = ../BookViewController.h; sourceTree = "<group>"; };
+		5D0CA32618A0162200A1973E /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookViewController.m; path = ../BookViewController.m; sourceTree = "<group>"; };
+		5D0CA32B18A016FA00A1973E /* CalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalenderViewController.h; path = ../CalenderViewController.h; sourceTree = "<group>"; };
+		5D0CA32C18A016FA00A1973E /* CalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalenderViewController.m; path = ../CalenderViewController.m; sourceTree = "<group>"; };
+		5D0CA33118A0174E00A1973E /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ../MapViewController.h; sourceTree = "<group>"; };
+		5D0CA33218A0174E00A1973E /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ../MapViewController.m; sourceTree = "<group>"; };
+		5D0CA33418A0189B00A1973E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5D0CA33E18A02CA900A1973E /* GQMVLIMYZUAYCJG.20110804185518.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GQMVLIMYZUAYCJG.20110804185518.jpg; sourceTree = "<group>"; };
+		5D0CA34018A02E4800A1973E /* degree works icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "degree works icon.tiff"; sourceTree = "<group>"; };
+		5D0CA34218A02E7900A1973E /* DegreeWorksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DegreeWorksViewController.h; path = ../DegreeWorksViewController.h; sourceTree = "<group>"; };
+		5D0CA34318A02E7900A1973E /* DegreeWorksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DegreeWorksViewController.m; path = ../DegreeWorksViewController.m; sourceTree = "<group>"; };
+		5D0CA34518A02FB900A1973E /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibraryViewController.h; path = ../LibraryViewController.h; sourceTree = "<group>"; };
+		5D0CA34618A02FB900A1973E /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibraryViewController.m; path = ../LibraryViewController.m; sourceTree = "<group>"; };
+		5D0CA34818A0308B00A1973E /* EmergencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmergencyViewController.h; path = ../EmergencyViewController.h; sourceTree = "<group>"; };
+		5D0CA34918A0308B00A1973E /* EmergencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmergencyViewController.m; path = ../EmergencyViewController.m; sourceTree = "<group>"; };
+		5D0CA34B18A030C300A1973E /* emergency_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emergency_icon.png; sourceTree = "<group>"; };
+		5D0CA34D18A0332D00A1973E /* library icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "library icon.tiff"; sourceTree = "<group>"; };
+		5D0CA34F18A0340600A1973E /* JaspersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JaspersViewController.h; path = ../JaspersViewController.h; sourceTree = "<group>"; };
+		5D0CA35018A0340600A1973E /* JaspersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JaspersViewController.m; path = ../JaspersViewController.m; sourceTree = "<group>"; };
+		5D0CA35E18A03A3900A1973E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5D0CA36918A0492600A1973E /* HWCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWCell.h; path = ../HWCell.h; sourceTree = "<group>"; };
+		5D0CA36A18A0492600A1973E /* HWCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWCell.m; path = ../HWCell.m; sourceTree = "<group>"; };
+		5D0CA36C18A0494000A1973E /* HW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HW.h; path = ../HW.h; sourceTree = "<group>"; };
+		5D0CA36D18A0494000A1973E /* HW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HW.m; path = ../HW.m; sourceTree = "<group>"; };
+		5D0CA37218A0BEF100A1973E /* HWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWDetailViewController.h; path = ../HWDetailViewController.h; sourceTree = "<group>"; };
+		5D0CA37318A0BEF100A1973E /* HWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWDetailViewController.m; path = ../HWDetailViewController.m; sourceTree = "<group>"; };
+		5D0CA37518A0C6F900A1973E /* HWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWTableViewController.h; path = ../HWTableViewController.h; sourceTree = "<group>"; };
+		5D0CA37618A0C6F900A1973E /* HWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWTableViewController.m; path = ../HWTableViewController.m; sourceTree = "<group>"; };
+		5D0CA37A18A1759900A1973E /* T33717-ST-506.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "T33717-ST-506.png"; path = "../T33717-ST-506.png"; sourceTree = "<group>"; };
+		5D0CA37E18A1767E00A1973E /* 1C6958411-4.blocks_desktop_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1C6958411-4.blocks_desktop_small.png"; sourceTree = "<group>"; };
+		5D12174E1AA7CE33003BDE4B /* woIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woIcon.png; sourceTree = "<group>"; };
+		5D2B7CD31C69906B00F36BAD /* washing-machine-512.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "washing-machine-512.gif"; sourceTree = "<group>"; };
+		5D2E77B51A15619F00B7E11D /* emailMC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailMC.png; sourceTree = "<group>"; };
+		5D2E77B71A15624000B7E11D /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmailViewController.h; path = ../EmailViewController.h; sourceTree = "<group>"; };
+		5D2E77B81A15624000B7E11D /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmailViewController.m; path = ../EmailViewController.m; sourceTree = "<group>"; };
+		5D2E77BA1A1568CA00B7E11D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		5D2E77BB1A1568CA00B7E11D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		5D2E77C01A1569D700B7E11D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5D49E86D199ADFE700449B23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D49E86F199AE23300449B23 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		5D49E871199AEC1800449B23 /* id.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id.png; sourceTree = "<group>"; };
+		5D49E879199AEF4100449B23 /* calender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender.png; sourceTree = "<group>"; };
+		5D49E87B199AF09300449B23 /* selfservice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selfservice.png; sourceTree = "<group>"; };
+		5D49E87D199AF09600449B23 /* bookstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookstore.png; sourceTree = "<group>"; };
+		5D49E87F199AF2C000449B23 /* IDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDViewController.h; path = ../IDViewController.h; sourceTree = "<group>"; };
+		5D49E880199AF2C000449B23 /* IDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IDViewController.m; path = ../IDViewController.m; sourceTree = "<group>"; };
+		5D49E884199C3FDE00449B23 /* GrubhubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrubhubViewController.h; path = ../GrubhubViewController.h; sourceTree = "<group>"; };
+		5D49E885199C3FDE00449B23 /* GrubhubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GrubhubViewController.m; path = ../GrubhubViewController.m; sourceTree = "<group>"; };
+		5D49E889199C467500449B23 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		5D49E88C199C510F00449B23 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleViewController.h; path = ../ScheduleViewController.h; sourceTree = "<group>"; };
+		5D49E88D199C510F00449B23 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleViewController.m; path = ../ScheduleViewController.m; sourceTree = "<group>"; };
+		5D4D4C101923478B004147DA /* Lasallian-Star_Green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lasallian-Star_Green.jpg"; sourceTree = "<group>"; };
+		5D4F71E119040C740089921F /* Homework.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Homework.plist; sourceTree = "<group>"; };
+		5D5023611A087DED0055C68B /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterViewController.h; path = ../TwitterViewController.h; sourceTree = "<group>"; };
+		5D5023621A087DED0055C68B /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterViewController.m; path = ../TwitterViewController.m; sourceTree = "<group>"; };
+		5D5023641A087ED60055C68B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5D5023661A0885050055C68B /* studActIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = studActIcon.jpg; sourceTree = "<group>"; };
+		5D5023681A08850B0055C68B /* studActHeader.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = studActHeader.jpeg; sourceTree = "<group>"; };
+		5D50236A1A0888760055C68B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5D59A4CD1A4273CC00DC38E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5D59A4CF1A4273DA00DC38E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5D59A4D11A4273E600DC38E6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5D59A4D31A42756B00DC38E6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5D75E8EA19A06D9900B287B7 /* campusMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = campusMap.pdf; sourceTree = "<group>"; };
+		5D75E8EC19A0727500B287B7 /* instagramIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagramIcon.png; sourceTree = "<group>"; };
+		5D75E8ED19A0727500B287B7 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsIcon.png; sourceTree = "<group>"; };
+		5D75E8EE19A0727500B287B7 /* directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directory.png; sourceTree = "<group>"; };
+		5D75E8F219A0742600B287B7 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		5D75E8F319A0742600B287B7 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		5D9D26841A424AA700D66C70 /* harddrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = harddrive.png; path = ../harddrive.png; sourceTree = "<group>"; };
+		5D9D26861A424B2E00D66C70 /* HomeDriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeDriveViewController.h; path = ../HomeDriveViewController.h; sourceTree = "<group>"; };
+		5D9D26871A424B2E00D66C70 /* HomeDriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeDriveViewController.m; path = ../HomeDriveViewController.m; sourceTree = "<group>"; };
+		5DAAA9371A4804A400F73AC3 /* JNKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNKeychain.h; sourceTree = "<group>"; };
+		5DAAA9381A4804A400F73AC3 /* JNKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNKeychain.m; sourceTree = "<group>"; };
+		5DAAA93A1A49437C00F73AC3 /* seamless_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seamless_icon.png; sourceTree = "<group>"; };
+		5DAAA93C1A49478300F73AC3 /* newspaperIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaperIcon.png; sourceTree = "<group>"; };
+		5DAAA93E1A49492700F73AC3 /* QuadrangleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuadrangleViewController.h; path = ../QuadrangleViewController.h; sourceTree = "<group>"; };
+		5DAAA93F1A49492700F73AC3 /* QuadrangleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuadrangleViewController.m; path = ../QuadrangleViewController.m; sourceTree = "<group>"; };
+		5DAAA9411A4A974500F73AC3 /* edit-property-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-property-xxl.png"; sourceTree = "<group>"; };
+		5DAAA9431A4A97BB00F73AC3 /* forms-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forms-icon.png"; sourceTree = "<group>"; };
+		5DAB0E851AA653300055DF44 /* wrench.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wrench.png; sourceTree = "<group>"; };
+		5DAB0E871AA653FD0055DF44 /* WorkOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkOrderViewController.h; path = ../WorkOrderViewController.h; sourceTree = "<group>"; };
+		5DAB0E881AA653FD0055DF44 /* WorkOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkOrderViewController.m; path = ../WorkOrderViewController.m; sourceTree = "<group>"; };
+		5DAB0E8A1AA657FB0055DF44 /* funds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = funds.png; sourceTree = "<group>"; };
+		5DAB0E8C1AA658830055DF44 /* FundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FundsViewController.h; path = ../FundsViewController.h; sourceTree = "<group>"; };
+		5DAB0E8D1AA658830055DF44 /* FundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FundsViewController.m; path = ../FundsViewController.m; sourceTree = "<group>"; };
+		5DB58F6319FABEEF003E325B /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		5DB58F6519FABEEF003E325B /* MC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MC.entitlements; sourceTree = "<group>"; };
+		5DB58F6C19FAC89A003E325B /* backicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backicon.png; sourceTree = "<group>"; };
+		5DB58F6E19FAC8C0003E325B /* backicon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backicon copy.png"; sourceTree = "<group>"; };
+		5DBD50801B3D85FB009EB969 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		5DBD50861B3D95C6009EB969 /* icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon4.png; sourceTree = "<group>"; };
+		5DBD50871B3D95C6009EB969 /* icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon5.png; sourceTree = "<group>"; };
+		5DC067DE19EA3D1100F400C1 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
+		5DC067E019EA40F000F400C1 /* grubhub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grubhub.png; sourceTree = "<group>"; };
+		5DF225EC19233DF7003484CD /* header.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = header.tiff; sourceTree = "<group>"; };
+		5DF225F019233DFB003484CD /* ManCol3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManCol3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D0CA2AC18A0020900A1973E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D59A4D41A42756B00DC38E6 /* libsqlite3.0.dylib in Frameworks */,
+				5D59A4D21A4273E600DC38E6 /* libz.dylib in Frameworks */,
+				5D59A4D01A4273DA00DC38E6 /* SystemConfiguration.framework in Frameworks */,
+				5D59A4CE1A4273CC00DC38E6 /* CoreData.framework in Frameworks */,
+				5D50236B1A0888760055C68B /* Accounts.framework in Frameworks */,
+				5D5023651A087ED60055C68B /* Social.framework in Frameworks */,
+				5DB58F6419FABEEF003E325B /* PassKit.framework in Frameworks */,
+				5D49E86E199ADFE700449B23 /* MapKit.framework in Frameworks */,
+				5D0CA35F18A03A3900A1973E /* Security.framework in Frameworks */,
+				5D0CA2B518A0020900A1973E /* CoreGraphics.framework in Frameworks */,
+				5D0CA2B718A0020900A1973E /* UIKit.framework in Frameworks */,
+				5D0CA2B318A0020900A1973E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0CA2CD18A0020A00A1973E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CA2D218A0020A00A1973E /* XCTest.framework in Frameworks */,
+				5D0CA2D418A0020A00A1973E /* UIKit.framework in Frameworks */,
+				5D0CA2D318A0020A00A1973E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0CA2A618A0020900A1973E = {
+			isa = PBXGroup;
+			children = (
+				5DB58F6519FABEEF003E325B /* MC.entitlements */,
+				5D0CA2B818A0020900A1973E /* Manhattan College App */,
+				5D0CA2D718A0020A00A1973E /* Manhattan College AppTests */,
+				5D0CA2B118A0020900A1973E /* Frameworks */,
+				5D0CA2B018A0020900A1973E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D0CA2B018A0020900A1973E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0CA2AF18A0020900A1973E /* MC.app */,
+				5D0CA2D018A0020A00A1973E /* MCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0CA2B118A0020900A1973E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D59A4D31A42756B00DC38E6 /* libsqlite3.0.dylib */,
+				5D59A4D11A4273E600DC38E6 /* libz.dylib */,
+				5D59A4CF1A4273DA00DC38E6 /* SystemConfiguration.framework */,
+				5D59A4CD1A4273CC00DC38E6 /* CoreData.framework */,
+				5D2E77C01A1569D700B7E11D /* MobileCoreServices.framework */,
+				5D50236A1A0888760055C68B /* Accounts.framework */,
+				5D5023641A087ED60055C68B /* Social.framework */,
+				5DB58F6319FABEEF003E325B /* PassKit.framework */,
+				5D49E86D199ADFE700449B23 /* MapKit.framework */,
+				5D0CA35E18A03A3900A1973E /* Security.framework */,
+				5D0CA2B218A0020900A1973E /* Foundation.framework */,
+				5D0CA2B418A0020900A1973E /* CoreGraphics.framework */,
+				5D0CA2B618A0020900A1973E /* UIKit.framework */,
+				5D0CA2D118A0020A00A1973E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D0CA2B818A0020900A1973E /* Manhattan College App */ = {
+			isa = PBXGroup;
+			children = (
+				5D49E889199C467500449B23 /* Settings.bundle */,
+				5D0CA2C118A0020900A1973E /* AppDelegate.h */,
+				5D0CA2C218A0020900A1973E /* AppDelegate.m */,
+				5D0CA2C418A0020900A1973E /* Main.storyboard */,
+				5DBD50801B3D85FB009EB969 /* iPad.storyboard */,
+				5D4F71E119040C740089921F /* Homework.plist */,
+				5D0CA2C718A0020900A1973E /* ViewController.h */,
+				5D0CA2C818A0020900A1973E /* ViewController.m */,
+				5D0CA2FD18A00A4400A1973E /* SelfServiceViewController.h */,
+				5D0CA2FE18A00A4400A1973E /* SelfServiceViewController.m */,
+				5D0CA30718A00BF800A1973E /* MoodleViewController.h */,
+				5D0CA30818A00BF800A1973E /* MoodleViewController.m */,
+				5D0CA32518A0162200A1973E /* BookViewController.h */,
+				5D0CA32618A0162200A1973E /* BookViewController.m */,
+				5D0CA32B18A016FA00A1973E /* CalenderViewController.h */,
+				5D0CA32C18A016FA00A1973E /* CalenderViewController.m */,
+				5D0CA33118A0174E00A1973E /* MapViewController.h */,
+				5D0CA33218A0174E00A1973E /* MapViewController.m */,
+				5D0CA37518A0C6F900A1973E /* HWTableViewController.h */,
+				5D0CA37618A0C6F900A1973E /* HWTableViewController.m */,
+				5D0CA37218A0BEF100A1973E /* HWDetailViewController.h */,
+				5D0CA37318A0BEF100A1973E /* HWDetailViewController.m */,
+				5D0CA36918A0492600A1973E /* HWCell.h */,
+				5D0CA36A18A0492600A1973E /* HWCell.m */,
+				5D0CA36C18A0494000A1973E /* HW.h */,
+				5D0CA36D18A0494000A1973E /* HW.m */,
+				5D9D26861A424B2E00D66C70 /* HomeDriveViewController.h */,
+				5D9D26871A424B2E00D66C70 /* HomeDriveViewController.m */,
+				5D0CA34218A02E7900A1973E /* DegreeWorksViewController.h */,
+				5D0CA34318A02E7900A1973E /* DegreeWorksViewController.m */,
+				5D0CA34518A02FB900A1973E /* LibraryViewController.h */,
+				5D0CA34618A02FB900A1973E /* LibraryViewController.m */,
+				5D0CA34818A0308B00A1973E /* EmergencyViewController.h */,
+				5D0CA34918A0308B00A1973E /* EmergencyViewController.m */,
+				5D0CA34F18A0340600A1973E /* JaspersViewController.h */,
+				5D0CA35018A0340600A1973E /* JaspersViewController.m */,
+				5D49E87F199AF2C000449B23 /* IDViewController.h */,
+				5D49E880199AF2C000449B23 /* IDViewController.m */,
+				5D49E884199C3FDE00449B23 /* GrubhubViewController.h */,
+				5D49E885199C3FDE00449B23 /* GrubhubViewController.m */,
+				5D49E88C199C510F00449B23 /* ScheduleViewController.h */,
+				5D49E88D199C510F00449B23 /* ScheduleViewController.m */,
+				5D75E8F219A0742600B287B7 /* SettingsViewController.h */,
+				5D75E8F319A0742600B287B7 /* SettingsViewController.m */,
+				5D5023611A087DED0055C68B /* TwitterViewController.h */,
+				5D5023621A087DED0055C68B /* TwitterViewController.m */,
+				5D2E77B71A15624000B7E11D /* EmailViewController.h */,
+				5D2E77B81A15624000B7E11D /* EmailViewController.m */,
+				5DAAA9371A4804A400F73AC3 /* JNKeychain.h */,
+				5DAAA9381A4804A400F73AC3 /* JNKeychain.m */,
+				5D2E77BA1A1568CA00B7E11D /* LoginViewController.h */,
+				5D2E77BB1A1568CA00B7E11D /* LoginViewController.m */,
+				5DAAA93E1A49492700F73AC3 /* QuadrangleViewController.h */,
+				5DAAA93F1A49492700F73AC3 /* QuadrangleViewController.m */,
+				5DAB0E871AA653FD0055DF44 /* WorkOrderViewController.h */,
+				5DAB0E881AA653FD0055DF44 /* WorkOrderViewController.m */,
+				5DAB0E8C1AA658830055DF44 /* FundsViewController.h */,
+				5DAB0E8D1AA658830055DF44 /* FundsViewController.m */,
+				5D0CA2CA18A0020900A1973E /* Images.xcassets */,
+				5D0CA2B918A0020900A1973E /* Supporting Files */,
+			);
+			path = "Manhattan College App";
+			sourceTree = "<group>";
+		};
+		5D0CA2B918A0020900A1973E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D05D5201B1A9DBD00E12774 /* unnamed.png */,
+				5D2B7CD31C69906B00F36BAD /* washing-machine-512.gif */,
+				5DAAA9411A4A974500F73AC3 /* edit-property-xxl.png */,
+				5DBD50861B3D95C6009EB969 /* icon4.png */,
+				5DBD50871B3D95C6009EB969 /* icon5.png */,
+				5DAB0E8A1AA657FB0055DF44 /* funds.png */,
+				5D12174E1AA7CE33003BDE4B /* woIcon.png */,
+				5DAB0E851AA653300055DF44 /* wrench.png */,
+				5DAAA9431A4A97BB00F73AC3 /* forms-icon.png */,
+				5DAAA93C1A49478300F73AC3 /* newspaperIcon.png */,
+				5DAAA93A1A49437C00F73AC3 /* seamless_icon.png */,
+				5D9D26841A424AA700D66C70 /* harddrive.png */,
+				5D0CA37E18A1767E00A1973E /* 1C6958411-4.blocks_desktop_small.png */,
+				5D05D5221B1AA90300E12774 /* icon.png */,
+				5D05D5231B1AA90300E12774 /* icon2.png */,
+				5D05D5241B1AA90300E12774 /* icon3.png */,
+				5D0CA37A18A1759900A1973E /* T33717-ST-506.png */,
+				5DB58F6C19FAC89A003E325B /* backicon.png */,
+				5DB58F6E19FAC8C0003E325B /* backicon copy.png */,
+				5D0CA34B18A030C300A1973E /* emergency_icon.png */,
+				5D0CA34018A02E4800A1973E /* degree works icon.tiff */,
+				5D0CA33E18A02CA900A1973E /* GQMVLIMYZUAYCJG.20110804185518.jpg */,
+				5D05D52A1B1AAED400E12774 /* Moodle.png */,
+				5D05D52C1B1AAF4800E12774 /* LogoMoodle.png */,
+				5D0CA33418A0189B00A1973E /* logo.png */,
+				5D0CA30218A00B4300A1973E /* small-tiles.png */,
+				5D0CA30018A00AEC00A1973E /* manhattan_36t.png */,
+				5D0CA2F918A008D500A1973E /* 4064011-1380299870646-144x144.png */,
+				5D0CA2F518A0085E00A1973E /* con140656.png */,
+				5D0CA34D18A0332D00A1973E /* library icon.tiff */,
+				5D0CA2F618A0085E00A1973E /* Facebook-Icon.png */,
+				5D0CA2FB18A0098200A1973E /* 04_maps.png */,
+				5D0CA2F318A0078900A1973E /* Calender icon.tiff */,
+				5D05D52E1B1AB05700E12774 /* lib.tiff */,
+				5D0CA2EF18A0078300A1973E /* moodle icon.tiff */,
+				5D0CA2F018A0078300A1973E /* self service icon.tiff */,
+				5D0CA2ED18A0075200A1973E /* bookstore icon.tiff */,
+				5D05D5301B1AB10A00E12774 /* MTLLAX7dc.png */,
+				5D0CA2EB18A006E200A1973E /* 732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png */,
+				5D0CA2E718A0030200A1973E /* 373016_211461328925864_1317826551_n.jpg */,
+				5D0CA2E918A006D900A1973E /* manhattan_jaspers_lacrosse-300x200 copy.png */,
+				5D75E8EA19A06D9900B287B7 /* campusMap.pdf */,
+				5D49E871199AEC1800449B23 /* id.png */,
+				5D49E86F199AE23300449B23 /* fb.png */,
+				5DF225EC19233DF7003484CD /* header.tiff */,
+				5D4D4C101923478B004147DA /* Lasallian-Star_Green.jpg */,
+				5D49E87D199AF09600449B23 /* bookstore.png */,
+				5DC067E019EA40F000F400C1 /* grubhub.png */,
+				5D49E87B199AF09300449B23 /* selfservice.png */,
+				5DC067DE19EA3D1100F400C1 /* schedule.png */,
+				5D75E8EC19A0727500B287B7 /* instagramIcon.png */,
+				5D75E8ED19A0727500B287B7 /* settingsIcon.png */,
+				5D75E8EE19A0727500B287B7 /* directory.png */,
+				5D49E879199AEF4100449B23 /* calender.png */,
+				5DF225F019233DFB003484CD /* ManCol3.jpg */,
+				5D5023681A08850B0055C68B /* studActHeader.jpeg */,
+				5D2E77B51A15619F00B7E11D /* emailMC.png */,
+				5D5023661A0885050055C68B /* studActIcon.jpg */,
+				5D0CA2BA18A0020900A1973E /* MC-Info.plist */,
+				5D0CA2BB18A0020900A1973E /* InfoPlist.strings */,
+				5D0CA2BE18A0020900A1973E /* main.m */,
+				5D0CA2C018A0020900A1973E /* Manhattan College App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D0CA2D718A0020A00A1973E /* Manhattan College AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0CA2DD18A0020A00A1973E /* Manhattan_College_AppTests.m */,
+				5D0CA2D818A0020A00A1973E /* Supporting Files */,
+			);
+			path = "Manhattan College AppTests";
+			sourceTree = "<group>";
+		};
+		5D0CA2D818A0020A00A1973E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0CA2D918A0020A00A1973E /* Manhattan College AppTests-Info.plist */,
+				5D0CA2DA18A0020A00A1973E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0CA2AE18A0020900A1973E /* MC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0CA2E118A0020A00A1973E /* Build configuration list for PBXNativeTarget "MC" */;
+			buildPhases = (
+				5D0CA2AB18A0020900A1973E /* Sources */,
+				5D0CA2AC18A0020900A1973E /* Frameworks */,
+				5D0CA2AD18A0020900A1973E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MC;
+			productName = "Manhattan College App";
+			productReference = 5D0CA2AF18A0020900A1973E /* MC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D0CA2CF18A0020A00A1973E /* MCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0CA2E418A0020A00A1973E /* Build configuration list for PBXNativeTarget "MCTests" */;
+			buildPhases = (
+				5D0CA2CC18A0020A00A1973E /* Sources */,
+				5D0CA2CD18A0020A00A1973E /* Frameworks */,
+				5D0CA2CE18A0020A00A1973E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0CA2D618A0020A00A1973E /* PBXTargetDependency */,
+			);
+			name = MCTests;
+			productName = "Manhattan College AppTests";
+			productReference = 5D0CA2D018A0020A00A1973E /* MCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D0CA2A718A0020900A1973E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Monaco Software Productions";
+				TargetAttributes = {
+					5D0CA2AE18A0020900A1973E = {
+						DevelopmentTeam = UVV8Y7PKV9;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Passbook = {
+								enabled = 1;
+							};
+						};
+					};
+					5D0CA2CF18A0020A00A1973E = {
+						TestTargetID = 5D0CA2AE18A0020900A1973E;
+					};
+				};
+			};
+			buildConfigurationList = 5D0CA2AA18A0020900A1973E /* Build configuration list for PBXProject "MC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D0CA2A618A0020900A1973E;
+			productRefGroup = 5D0CA2B018A0020900A1973E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0CA2AE18A0020900A1973E /* MC */,
+				5D0CA2CF18A0020A00A1973E /* MCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D0CA2AD18A0020900A1973E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CA2F118A0078300A1973E /* moodle icon.tiff in Resources */,
+				5D0CA37F18A1767E00A1973E /* 1C6958411-4.blocks_desktop_small.png in Resources */,
+				5D05D5251B1AA90300E12774 /* icon.png in Resources */,
+				5D0CA2FA18A008D500A1973E /* 4064011-1380299870646-144x144.png in Resources */,
+				5D0CA33F18A02CA900A1973E /* GQMVLIMYZUAYCJG.20110804185518.jpg in Resources */,
+				5D05D52F1B1AB05700E12774 /* lib.tiff in Resources */,
+				5D0CA2F218A0078300A1973E /* self service icon.tiff in Resources */,
+				5DAAA93B1A49437C00F73AC3 /* seamless_icon.png in Resources */,
+				5D75E8EB19A06D9900B287B7 /* campusMap.pdf in Resources */,
+				5D4D4C111923478B004147DA /* Lasallian-Star_Green.jpg in Resources */,
+				5D49E872199AEC1800449B23 /* id.png in Resources */,
+				5DBD50881B3D95C6009EB969 /* icon4.png in Resources */,
+				5DAB0E861AA653300055DF44 /* wrench.png in Resources */,
+				5D0CA2CB18A0020900A1973E /* Images.xcassets in Resources */,
+				5D9D26851A424AA700D66C70 /* harddrive.png in Resources */,
+				5D49E87E199AF09600449B23 /* bookstore.png in Resources */,
+				5D0CA37B18A1759900A1973E /* T33717-ST-506.png in Resources */,
+				5DBD50891B3D95C6009EB969 /* icon5.png in Resources */,
+				5D05D5211B1A9DBD00E12774 /* unnamed.png in Resources */,
+				5D05D5271B1AA90300E12774 /* icon3.png in Resources */,
+				5D5023691A08850B0055C68B /* studActHeader.jpeg in Resources */,
+				5DC067E119EA40F000F400C1 /* grubhub.png in Resources */,
+				5D05D5311B1AB10A00E12774 /* MTLLAX7dc.png in Resources */,
+				5D0CA2EA18A006D900A1973E /* manhattan_jaspers_lacrosse-300x200 copy.png in Resources */,
+				5DB58F6F19FAC8C0003E325B /* backicon copy.png in Resources */,
+				5D0CA33518A0189C00A1973E /* logo.png in Resources */,
+				5D0CA2EE18A0075200A1973E /* bookstore icon.tiff in Resources */,
+				5DBD50811B3D85FB009EB969 /* iPad.storyboard in Resources */,
+				5D0CA2BD18A0020900A1973E /* InfoPlist.strings in Resources */,
+				5D05D52D1B1AAF4800E12774 /* LogoMoodle.png in Resources */,
+				5D49E87C199AF09300449B23 /* selfservice.png in Resources */,
+				5D0CA2EC18A006E200A1973E /* 732-crest-250-200-f4814d045b77ea7749b441144dc48a09.png in Resources */,
+				5D0CA2E818A0030200A1973E /* 373016_211461328925864_1317826551_n.jpg in Resources */,
+				5D49E88A199C467600449B23 /* Settings.bundle in Resources */,
+				5D0CA34E18A0332D00A1973E /* library icon.tiff in Resources */,
+				5D0CA30318A00B4300A1973E /* small-tiles.png in Resources */,
+				5D0CA34C18A030C300A1973E /* emergency_icon.png in Resources */,
+				5D12174F1AA7CE33003BDE4B /* woIcon.png in Resources */,
+				5DAAA9441A4A97BB00F73AC3 /* forms-icon.png in Resources */,
+				5D2E77B61A15619F00B7E11D /* emailMC.png in Resources */,
+				5DAAA9421A4A974500F73AC3 /* edit-property-xxl.png in Resources */,
+				5DB58F6D19FAC89A003E325B /* backicon.png in Resources */,
+				5D0CA2F818A0085E00A1973E /* Facebook-Icon.png in Resources */,
+				5D75E8EF19A0727500B287B7 /* instagramIcon.png in Resources */,
+				5DAAA93D1A49478300F73AC3 /* newspaperIcon.png in Resources */,
+				5DC067DF19EA3D1100F400C1 /* schedule.png in Resources */,
+				5D5023671A0885050055C68B /* studActIcon.jpg in Resources */,
+				5D49E87A199AEF4100449B23 /* calender.png in Resources */,
+				5D05D52B1B1AAED400E12774 /* Moodle.png in Resources */,
+				5D0CA2FC18A0098200A1973E /* 04_maps.png in Resources */,
+				5D0CA2F418A0078900A1973E /* Calender icon.tiff in Resources */,
+				5D2B7CD41C69906B00F36BAD /* washing-machine-512.gif in Resources */,
+				5D0CA2C618A0020900A1973E /* Main.storyboard in Resources */,
+				5DF225EE19233DF7003484CD /* header.tiff in Resources */,
+				5D0CA34118A02E4800A1973E /* degree works icon.tiff in Resources */,
+				5D0CA2F718A0085E00A1973E /* con140656.png in Resources */,
+				5D4F71E219040C740089921F /* Homework.plist in Resources */,
+				5D75E8F019A0727500B287B7 /* settingsIcon.png in Resources */,
+				5D49E870199AE23300449B23 /* fb.png in Resources */,
+				5DAB0E8B1AA657FB0055DF44 /* funds.png in Resources */,
+				5D05D5261B1AA90300E12774 /* icon2.png in Resources */,
+				5D75E8F119A0727500B287B7 /* directory.png in Resources */,
+				5D0CA30118A00AEC00A1973E /* manhattan_36t.png in Resources */,
+				5DF225F119233DFB003484CD /* ManCol3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0CA2CE18A0020A00A1973E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CA2DC18A0020A00A1973E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0CA2AB18A0020900A1973E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CA34418A02E7900A1973E /* DegreeWorksViewController.m in Sources */,
+				5D2E77BC1A1568CA00B7E11D /* LoginViewController.m in Sources */,
+				5D0CA37718A0C6F900A1973E /* HWTableViewController.m in Sources */,
+				5D0CA34718A02FB900A1973E /* LibraryViewController.m in Sources */,
+				5D0CA32718A0162200A1973E /* BookViewController.m in Sources */,
+				5D0CA32D18A016FA00A1973E /* CalenderViewController.m in Sources */,
+				5D9D26881A424B2E00D66C70 /* HomeDriveViewController.m in Sources */,
+				5D0CA33318A0174E00A1973E /* MapViewController.m in Sources */,
+				5D5023631A087DED0055C68B /* TwitterViewController.m in Sources */,
+				5D0CA30918A00BF800A1973E /* MoodleViewController.m in Sources */,
+				5DAAA9401A49492700F73AC3 /* QuadrangleViewController.m in Sources */,
+				5D75E8F419A0742600B287B7 /* SettingsViewController.m in Sources */,
+				5D2E77B91A15624000B7E11D /* EmailViewController.m in Sources */,
+				5D49E88E199C510F00449B23 /* ScheduleViewController.m in Sources */,
+				5D0CA35118A0340600A1973E /* JaspersViewController.m in Sources */,
+				5D49E886199C3FDE00449B23 /* GrubhubViewController.m in Sources */,
+				5DAB0E891AA653FD0055DF44 /* WorkOrderViewController.m in Sources */,
+				5DAAA9391A4804A400F73AC3 /* JNKeychain.m in Sources */,
+				5D0CA36B18A0492600A1973E /* HWCell.m in Sources */,
+				5D49E881199AF2C000449B23 /* IDViewController.m in Sources */,
+				5D0CA37418A0BEF100A1973E /* HWDetailViewController.m in Sources */,
+				5D0CA2FF18A00A4400A1973E /* SelfServiceViewController.m in Sources */,
+				5D0CA2C918A0020900A1973E /* ViewController.m in Sources */,
+				5DAB0E8E1AA658830055DF44 /* FundsViewController.m in Sources */,
+				5D0CA2C318A0020900A1973E /* AppDelegate.m in Sources */,
+				5D0CA34A18A0308B00A1973E /* EmergencyViewController.m in Sources */,
+				5D0CA36E18A0494000A1973E /* HW.m in Sources */,
+				5D0CA2BF18A0020900A1973E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0CA2CC18A0020A00A1973E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0CA2DE18A0020A00A1973E /* Manhattan_College_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D0CA2D618A0020A00A1973E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0CA2AE18A0020900A1973E /* MC */;
+			targetProxy = 5D0CA2D518A0020A00A1973E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D0CA2BB18A0020900A1973E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0CA2BC18A0020900A1973E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D0CA2C418A0020900A1973E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0CA2C518A0020900A1973E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0CA2DA18A0020A00A1973E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0CA2DB18A0020A00A1973E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D0CA2DF18A0020A00A1973E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D0CA2E018A0020A00A1973E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D0CA2E218A0020A00A1973E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MC.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/NickMonaco/Documents/Manhattan\\ College\\ App",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manhattan College App/MC-Prefix.pch";
+				INFOPLIST_FILE = "Manhattan College App/MC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MonacoApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MC;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D0CA2E318A0020A00A1973E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MC.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/NickMonaco/Documents/Manhattan\\ College\\ App",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manhattan College App/MC-Prefix.pch";
+				INFOPLIST_FILE = "Manhattan College App/MC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MonacoApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MC;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D0CA2E518A0020A00A1973E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Manhattan College App.app/Manhattan College App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manhattan College App/Manhattan College App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Manhattan College AppTests/Manhattan College AppTests-Info.plist";
+				PRODUCT_NAME = MCTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5D0CA2E618A0020A00A1973E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Manhattan College App.app/Manhattan College App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manhattan College App/Manhattan College App-Prefix.pch";
+				INFOPLIST_FILE = "Manhattan College AppTests/Manhattan College AppTests-Info.plist";
+				PRODUCT_NAME = MCTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D0CA2AA18A0020900A1973E /* Build configuration list for PBXProject "MC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0CA2DF18A0020A00A1973E /* Debug */,
+				5D0CA2E018A0020A00A1973E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0CA2E118A0020A00A1973E /* Build configuration list for PBXNativeTarget "MC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0CA2E218A0020A00A1973E /* Debug */,
+				5D0CA2E318A0020A00A1973E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0CA2E418A0020A00A1973E /* Build configuration list for PBXNativeTarget "MCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0CA2E518A0020A00A1973E /* Debug */,
+				5D0CA2E618A0020A00A1973E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D0CA2A718A0020900A1973E /* Project object */;
+}
