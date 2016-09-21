@@ -21,29 +21,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
-                                                    message:@"Which Service?"
-                                                   delegate:self
-                                          cancelButtonTitle:@"Cancel"
-                                          otherButtonTitles:@"ITS", @"Physical Plant", nil];
-    [alert show];
-}
-
-- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
-    // the user clicked OK
-    if (buttonIndex == 1) {
-        NSString *fullURL = @"https://docs.google.com/a/manhattan.edu/forms/d/1rRM3SLxYPrrV47Ve3V0Irq0dpyCvUEI2vkBPq-pmXxA/viewform?fbzx=-1341163421992974385";
-        NSURL *url = [NSURL URLWithString:fullURL];
-        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-        [WOWebView loadRequest:requestObj];
-        
-        self.WOWebView.delegate = self;
-        
-        WOWebView.scrollView.delegate = self;
-    }
     
-    if (buttonIndex == 2)
-    {
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Which Service" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"ITS" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
         NSString *fullURL = @"http://hosted.micromain.com/Manhattan/WebRequest/WRNew.aspx";
         NSURL *url = [NSURL URLWithString:fullURL];
         NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
@@ -52,8 +33,35 @@
         self.WOWebView.delegate = self;
         
         WOWebView.scrollView.delegate = self;
-    }
+    }]];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Physical Plant" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        NSString *fullURL = @"https://docs.google.com/a/manhattan.edu/forms/d/1rRM3SLxYPrrV47Ve3V0Irq0dpyCvUEI2vkBPq-pmXxA/viewform?fbzx=-1341163421992974385";
+        NSURL *url = [NSURL URLWithString:fullURL];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [WOWebView loadRequest:requestObj];
+        
+        self.WOWebView.delegate = self;
+        
+        WOWebView.scrollView.delegate = self;
+    }]];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self closeAlertview];
+    }]];
+    
+    dispatch_async(dispatch_get_main_queue(), ^ {
+        [self presentViewController:alertController animated:YES completion:nil];
+    });
+    
 }
+
+-(void)closeAlertview
+{
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -73,21 +81,28 @@
 
 -(IBAction)openActionSheet:(id)sender
 {
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Open In Safari", nil];
-    [actionSheet showInView:[self.view window]];
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     
-}
-
--(void) actionSheet: (UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    {
-        if (buttonIndex ==0)
-        {
-            NSString *currentURL = WOWebView.request.URL.absoluteString;
-            
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:currentURL]];
-        }
-    }
+    [actionSheet addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        
+        // Cancel button tappped.
+        //        [self dismissViewControllerAnimated:YES completion:^{
+        //        }];
+    }]];
+    
+    [actionSheet addAction:[UIAlertAction actionWithTitle:@"Open In Safari" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        
+        // OK button tapped.
+        NSString *currentURL = WOWebView.request.URL.absoluteString;
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:currentURL]];
+        
+        [self dismissViewControllerAnimated:YES completion:^{
+        }];
+    }]];
+    // Present action sheet.
+    [self presentViewController:actionSheet animated:YES completion:nil];
+    
 }
 
 - (void)updateButtons

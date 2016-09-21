@@ -48,6 +48,7 @@
 		5D0CA37418A0BEF100A1973E /* HWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA37318A0BEF100A1973E /* HWDetailViewController.m */; };
 		5D0CA37718A0C6F900A1973E /* HWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0CA37618A0C6F900A1973E /* HWTableViewController.m */; };
 		5D12174F1AA7CE33003BDE4B /* woIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D12174E1AA7CE33003BDE4B /* woIcon.png */; };
+		5D1AEC371D92E64E00F44238 /* fundsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D1AEC361D92E64E00F44238 /* fundsIcon.png */; };
 		5D2B7CD41C69906B00F36BAD /* washing-machine-512.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B7CD31C69906B00F36BAD /* washing-machine-512.gif */; };
 		5D2E77B91A15624000B7E11D /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E77B81A15624000B7E11D /* EmailViewController.m */; };
 		5D2E77BC1A1568CA00B7E11D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2E77BB1A1568CA00B7E11D /* LoginViewController.m */; };
@@ -144,6 +145,7 @@
 		5D0CA37518A0C6F900A1973E /* HWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HWTableViewController.h; path = ../HWTableViewController.h; sourceTree = "<group>"; };
 		5D0CA37618A0C6F900A1973E /* HWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HWTableViewController.m; path = ../HWTableViewController.m; sourceTree = "<group>"; };
 		5D12174E1AA7CE33003BDE4B /* woIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woIcon.png; sourceTree = "<group>"; };
+		5D1AEC361D92E64E00F44238 /* fundsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundsIcon.png; sourceTree = "<group>"; };
 		5D2B7CD31C69906B00F36BAD /* washing-machine-512.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "washing-machine-512.gif"; sourceTree = "<group>"; };
 		5D2E77B71A15624000B7E11D /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmailViewController.h; path = ../EmailViewController.h; sourceTree = "<group>"; };
 		5D2E77B81A15624000B7E11D /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmailViewController.m; path = ../EmailViewController.m; sourceTree = "<group>"; };
@@ -317,6 +319,7 @@
 		5D0CA2B918A0020900A1973E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D1AEC361D92E64E00F44238 /* fundsIcon.png */,
 				5D2B7CD31C69906B00F36BAD /* washing-machine-512.gif */,
 				5DAB0E8A1AA657FB0055DF44 /* funds.png */,
 				5D12174E1AA7CE33003BDE4B /* woIcon.png */,
@@ -464,6 +467,7 @@
 				5D49E88A199C467600449B23 /* Settings.bundle in Resources */,
 				5D0095221D92D6B2003CD6C7 /* con140656.png in Resources */,
 				5D00951A1D92D690003CD6C7 /* MTLLAX7dc.png in Resources */,
+				5D1AEC371D92E64E00F44238 /* fundsIcon.png in Resources */,
 				5D0CA30318A00B4300A1973E /* small-tiles.png in Resources */,
 				5D12174F1AA7CE33003BDE4B /* woIcon.png in Resources */,
 				5D00951E1D92D69E003CD6C7 /* selfservice.png in Resources */,
@@ -661,12 +665,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/NickMonaco/Documents/Manhattan\\ College\\ App",
+					"/Users/NickMonaco/Documents/MC\\ Student\\ App",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Manhattan College App/MC-Prefix.pch";
 				INFOPLIST_FILE = "Manhattan College App/MC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MonacoApps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MC;
@@ -686,12 +690,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/NickMonaco/Documents/Manhattan\\ College\\ App",
+					"/Users/NickMonaco/Documents/MC\\ Student\\ App",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Manhattan College App/MC-Prefix.pch";
 				INFOPLIST_FILE = "Manhattan College App/MC-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MonacoApps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MC;

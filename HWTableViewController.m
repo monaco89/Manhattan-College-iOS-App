@@ -184,11 +184,17 @@ NSString  *arrayPath;
     
     NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:path];
     
-    NSString *errorDesc = nil;
+//    NSString *errorDesc = nil;
+//    
+//    NSPropertyListFormat format;
+//    
+//    NSDictionary *temp = (NSDictionary *) [NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&format errorDescription:&errorDesc];
     
-    NSPropertyListFormat format;
     
-    NSDictionary *temp = (NSDictionary *) [NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&format errorDescription:&errorDesc];
+    NSError *errorDesc;
+    //NSData * tempData = [[NSData alloc] initWithContentsOfFile:@"Data.plist"];
+    NSPropertyListFormat plistFormat;
+    NSDictionary *temp = [NSPropertyListSerialization propertyListWithData:plistXML options:NSPropertyListImmutable format:&plistFormat error:&errorDesc];
     
     if (!temp)
     {

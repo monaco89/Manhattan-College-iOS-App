@@ -47,21 +47,29 @@
 
 -(IBAction)openActionSheet:(id)sender;
 {
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Open In Safari", nil];
-    [actionSheet showInView:[self.view window]];
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     
-}
+    [actionSheet addAction:[UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        
+        // Cancel button tappped.
+        //        [self dismissViewControllerAnimated:YES completion:^{
+        //        }];
+    }]];
+    
+    [actionSheet addAction:[UIAlertAction actionWithTitle:@"Open In Safari" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        
+        // OK button tapped.
+        NSString *currentURL = SelfServiceWebView.request.URL.absoluteString;
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:currentURL]];
 
--(void) actionSheet: (UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    {
-        if (buttonIndex ==0)
-        {
-            NSString *currentURL = SelfServiceWebView.request.URL.absoluteString;
-            
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:currentURL]];
-        }
-    }
+        
+        [self dismissViewControllerAnimated:YES completion:^{
+        }];
+    }]];
+    // Present action sheet.
+    [self presentViewController:actionSheet animated:YES completion:nil];
+    
 }
 
 - (void)updateButtons
