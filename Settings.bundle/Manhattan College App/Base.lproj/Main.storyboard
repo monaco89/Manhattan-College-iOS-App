@@ -95,7 +95,7 @@
         <!--Library View Controller-->
         <scene sceneID="ZAl-Vg-qqv">
             <objects>
-                <viewController id="BFY-Gf-EnU" customClass="LibraryViewController" customModule="MC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BFY-Gf-EnU" customClass="LibraryViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vLG-S6-dkv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -114,7 +114,7 @@
                                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="yDR-ad-aMB">
                                             <color key="tintColor" red="0.13261433249999999" green="0.62830835460000001" blue="0.22759317640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
-                                                <action selector="openActionSheet:" destination="BFY-Gf-EnU" id="vRN-8K-K2c"/>
+                                                <action selector="openActionSheet:" destination="BFY-Gf-EnU" id="YNI-9o-pfO"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -148,14 +148,14 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="back" destination="wKS-hl-3hF" id="6jD-ng-gw3"/>
-                        <outlet property="forward" destination="eIs-TJ-5cE" id="b0s-q7-nLV"/>
-                        <outlet property="libWebView" destination="neY-pK-OWD" id="nyu-7b-Cq7"/>
+                        <outlet property="LibWebView" destination="neY-pK-OWD" id="Av4-yr-4gh"/>
+                        <outlet property="back" destination="wKS-hl-3hF" id="ZNM-gM-MUe"/>
+                        <outlet property="forward" destination="eIs-TJ-5cE" id="DnX-WW-K3d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lfy-we-FSt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328" y="-668"/>
+            <point key="canvasLocation" x="305" y="-648"/>
         </scene>
         <!--Degree Works View Controller-->
         <scene sceneID="bg5-OJ-pRq">
@@ -1517,7 +1517,7 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="7M8-Fi-2Tc"/>
+        <segue reference="F9O-54-nsc"/>
         <segue reference="aQw-F0-5bh"/>
         <segue reference="kta-1F-AWL"/>
     </inferredMetricsTieBreakers>
